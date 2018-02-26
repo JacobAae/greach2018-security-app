@@ -13,3 +13,7 @@
 *= require mobile
 *= require_self
 */
+
+div#content {
+    min-height: 75%;
+}
