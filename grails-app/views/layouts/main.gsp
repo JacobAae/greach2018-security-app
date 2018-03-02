@@ -38,6 +38,7 @@
                             <g:message code="challenges"/> <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><g:link controller="pirateNameGenerator" action="index"><g:message code="pirate.name.generator"/> </g:link></li>
+                            <li><g:link controller="contactList" action="index"><g:message code="contact.list"/> </g:link></li>
 
                             <li><g:link controller="webshop" action="index"><g:message code="webshop.title"/> </g:link></li>
                         </ul>
