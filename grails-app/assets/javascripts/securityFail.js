@@ -5,14 +5,13 @@
 // You're free to add application-wide JavaScript to this file, but it's generally better
 // to create separate JavaScript files as needed.
 //
-//= require jquery-2.2.0.min
-//= require bootstrap
+//= require jquery-1.6.1
 //= require common
 //= require_self
 
 $( document ).ready(function() {
-    $("a.hint").on('click', function() {
+    $("a.hint").click(function() {
         $(this).next('div').slideDown();
         return false;
-    })
+    });
 });

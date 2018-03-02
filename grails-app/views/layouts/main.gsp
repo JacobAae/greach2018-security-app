@@ -12,7 +12,13 @@
     <asset:stylesheet src="application.css"/>
 
     <g:layoutHead/>
-    <asset:javascript src="application.js"/>
+
+    <g:if test="${controllerName == 'securityFail'}">
+        <asset:javascript src="securityFail.js"/>
+    </g:if>
+    <g:else>
+        <asset:javascript src="application.js"/>
+    </g:else>
 
 </head>
 <body>
@@ -41,6 +47,8 @@
                             <li><g:link controller="contactList" action="index"><g:message code="contact.list"/> </g:link></li>
 
                             <li><g:link controller="webshop" action="index"><g:message code="webshop.title"/> </g:link></li>
+
+                            <li><g:link controller="securityFail" action="index"><g:message code="security.fail"/> </g:link></li>
                         </ul>
                     </li>
 
