@@ -19,3 +19,9 @@ if (typeof jQuery !== 'undefined') {
         });
     })(jQuery);
 }
+
+$( document ).ready(function() {
+    $("a.hint").on('click', function() {
+        $(this).next('div').slideDown();
+        return false;
+})});

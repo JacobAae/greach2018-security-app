@@ -52,12 +52,5 @@
         </div>
     </div>
 
-<script>
-    $("a.hint").on('click', function() {
-        $(this).next('div').slideDown();
-        return false;
-    })
-</script>
-
 </body>
 </html>
