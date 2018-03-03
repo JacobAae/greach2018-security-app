@@ -49,6 +49,13 @@
                             <li><g:link controller="webshop" action="index"><g:message code="webshop.title"/> </g:link></li>
 
                             <li><g:link controller="securityFail" action="index"><g:message code="security.fail"/> </g:link></li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <g:message code="helpers"/> <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><g:link controller="helper" action="md5"><g:message code="md5.calculator"/> </g:link></li>
+                            <li><g:link controller="helper" action="sha1"><g:message code="sha1.calculator"/> </g:link></li>
                         </ul>
                     </li>
 
