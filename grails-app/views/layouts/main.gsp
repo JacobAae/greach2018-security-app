@@ -54,6 +54,8 @@
 
                             <li><g:link controller="honorRoll" action="index"><g:message code="honorroll.title"/> </g:link></li>
 
+                            <li><g:link controller="dns" action="index"><g:message code="dnslookup.title"/> </g:link></li>
+
                         </ul>
                     </li>
 
