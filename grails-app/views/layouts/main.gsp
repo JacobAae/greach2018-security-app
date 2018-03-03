@@ -50,6 +50,11 @@
 
                             <li><g:link controller="securityFail" action="index"><g:message code="security.fail"/> </g:link></li>
 
+                            <li><g:link controller="login" action="index"><g:message code="session.handling.login"/> </g:link></li>
+
+                        </ul>
+                    </li>
+
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                             <g:message code="helpers"/> <span class="caret"></span></a>
