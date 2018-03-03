@@ -52,6 +52,8 @@
 
                             <li><g:link controller="login" action="index"><g:message code="session.handling.login"/> </g:link></li>
 
+                            <li><g:link controller="honorRoll" action="index"><g:message code="honorroll.title"/> </g:link></li>
+
                         </ul>
                     </li>
 
