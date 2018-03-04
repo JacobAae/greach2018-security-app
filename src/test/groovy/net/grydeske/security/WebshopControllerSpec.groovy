@@ -20,6 +20,7 @@ class WebshopControllerSpec extends Specification implements ControllerUnitTest<
 
     void "flash is set correct"() {
         when:
+        params.students = 42
         params.discount = discount
         controller.index()
 
