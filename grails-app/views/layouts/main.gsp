@@ -56,6 +56,8 @@
 
                             <li><g:link controller="dns" action="index"><g:message code="dnslookup.title"/> </g:link></li>
 
+                            <li><g:link controller="credit" action="index" params="[url:'http://grydeske.net']"><g:message code="credits.title"/> </g:link></li>
+
                         </ul>
                     </li>
 
