@@ -85,3 +85,5 @@ assets {
     minifyJs = true
     minifyCss = true
 }
+
+apply from: 'gradle/docker.gradle'
