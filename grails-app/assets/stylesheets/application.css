@@ -17,3 +17,10 @@
 div#content {
     min-height: 75%;
 }
+
+div.nav {
+    padding: 10px;
+}
+.nav a.home, .nav a.list, .nav a.create {
+    width: 150px;
+}
