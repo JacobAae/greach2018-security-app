@@ -1,0 +1,9 @@
+= Penetration Testing App
+
+With plenty of security issues
+
+== Getting Started
+
+. Try solving the challenges, that will improve your penetration testing skills.
+. Try out the TODO List app - and see how many issues you can find
+. Can you fix some of the issues you discovered?
