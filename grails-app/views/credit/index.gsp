@@ -48,6 +48,8 @@
             <div class="well instructions">
                 <h2>Instructions</h2>
 
+                <p>Can you craft a URL that sends you to somewhere not expected?</p>
+
                 <a href="#" class="hint"><strong>Hint 1:</strong></a>
                 <div style="display: none;">Look at the url</div>
 
