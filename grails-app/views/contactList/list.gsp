@@ -41,28 +41,11 @@
         </section>
         <section class="col-lg-4">
             <div class="well instructions">
-                <h2>Instructions</h2>
-
-                <a href="#" class="hint"><strong>Hint 1:</strong></a>
-                <div style="display: none;">Try to include a script in the input</div>
-
-                <br>
-
-                <a href="#" class="hint"><strong>Hint 2:</strong></a>
-                <div style="display: none;">Use something similar to &lt;script&gt;console.log('vulnerable');&lt;/script&gt;</div>
-
-
+                <g:render template="instructions"/>
             </div>
         </section>
     </div>
 </div>
-
-<script>
-    $("a.hint").on('click', function() {
-        $(this).next('div').slideDown();
-        return false;
-    })
-</script>
 
 </body>
 </html>
